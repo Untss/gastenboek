@@ -1,0 +1,14 @@
+{
+    "Julian Croeze": [
+        "Dit is een bericht.",
+        "23-03-23 03:03"
+    ],
+    "    <script> \talert(\"x);     <\/script>": [
+        "    <script>\r\n\talert(\"x);\r\n    <\/script>",
+        "24-03-23 10:03"
+    ],
+    "ergge": [
+        "    <script>\r\n\talert(\"x\");\r\n    <\/script>",
+        "24-03-23 10:03"
+    ]
+}

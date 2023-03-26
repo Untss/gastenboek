@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(18, 18, 18);
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  
+  #gastenboek {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  #gastenboek h2 {
+    margin-top: 0;
+  }
+  
+  #gastenboek form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  #gastenboek form button {
+    display: block;
+    background-color: turquoise;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #gastenboek form input,
+  #gastenboek form textarea {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: rgb(18, 18, 18);
+  }
+  
+  #gastenboek form textarea {
+    height: 100px;
+  }
+
+  #gastenboek form button:hover {
+    background-color: #564f70;
+  }
+
+  #gastenboek li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  #gastenboek ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .berichten {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .bericht {
+    box-sizing: border-box;
+    width: 45%;
+
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    background-color: rgb(24, 24, 24);
+  }
+
+  .user {
+    font-weight: bold;
+    color: turquoise;
+  }
+
+  .datum {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+  }
+
+  .date {
+    font-size: 12px;
+  }
